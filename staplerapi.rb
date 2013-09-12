@@ -69,24 +69,24 @@ abnormal_conditions = [
 how_many = 5
 highest_number = 24
 
-stapler_numbers = [*1..highest_number].sample(how_many)
-
-statuses = []
-
-stapler_numbers.each do |number|
-  if rand(1..100) <= normality_probability
-    condition = normality_condition
-  else
-    condition = abnormal_conditions.sample
-  end
-  status = {
-    "number" => number,
-    "condition" => condition
-  }
-  statuses << status
-end
-
 get "/" do
+
+  stapler_numbers = [*1..highest_number].sample(how_many)
+
+  statuses = []
+
+  stapler_numbers.each do |number|
+    if rand(1..100) <= normality_probability
+      condition = normality_condition
+    else
+      condition = abnormal_conditions.sample
+    end
+    status = {
+      "number" => number,
+      "condition" => condition
+    }
+    statuses << status
+  end
 
   statuses.to_json
 
