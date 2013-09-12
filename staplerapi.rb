@@ -23,17 +23,12 @@
 # Make a copy of config.json.example and edit it.
 
 require 'json'
-# require 'time'
-# require 'date'
-# require 'cgi'
 
 require 'rubygems'
 require 'bundler/setup'
 
 require 'sinatra'
-require 'sinatra/respond_with'
-# require 'nokogiri'
-# require 'open-uri'
+# require 'sinatra/respond_with'
 
 before do
   # Make this the default
