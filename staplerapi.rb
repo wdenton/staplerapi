@@ -48,18 +48,22 @@ normality_probability = 50
 normality_condition = "functioning normally"
 
 abnormal_conditions = [
-  "jammed",
-  "in use",
-  "being repaired",
-  "under investigation",
-  "missing",
-  "lost",
-  "stolen",
-  "in the dean's office",
-  "broken",
-  "being used by a student at her desk",
-  "empty"
-]
+                       "jammed",
+                       "in use",
+                       "being repaired",
+                       "under investigation",
+                       "missing",
+                       "lost",
+                       "stolen",
+                       "in the dean's office",
+                       "broken",
+                       "being used by a student at her desk",
+                       "empty",
+                       "feeling guilty",
+                       "underappreciated",
+                       "on its last legs",
+                       "unsure"
+                      ]
 
 how_many = 5
 highest_number = 24
