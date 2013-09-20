@@ -62,7 +62,9 @@ abnormal_conditions = [
                        "feeling guilty",
                        "underappreciated",
                        "on its last legs",
-                       "unsure"
+                       "unsure",
+                       "staring into the abyss",
+                       "content"
                       ]
 
 how_many = 5
