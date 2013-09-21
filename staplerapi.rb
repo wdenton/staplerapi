@@ -64,7 +64,9 @@ abnormal_conditions = [
                        "on its last legs",
                        "unsure",
                        "staring into the abyss",
-                       "content"
+                       "content",
+                       "taking Manhattan, and then it will take Berlin",
+                       "recovering from a PhD dissertation"
                       ]
 
 how_many = 5
