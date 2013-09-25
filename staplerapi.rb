@@ -44,30 +44,38 @@ end
 #   end
 # end
 
-normality_probability = 50
+normality_probability = 20
 normality_condition = "functioning normally"
 
 abnormal_conditions = [
-                       "jammed",
-                       "in use",
-                       "being repaired",
-                       "under investigation",
-                       "missing",
-                       "lost",
-                       "stolen",
-                       "in the dean's office",
-                       "broken",
-                       "being used by a student at her desk",
-                       "empty",
-                       "feeling guilty",
-                       "underappreciated",
-                       "on its last legs",
-                       "unsure",
-                       "staring into the abyss",
-                       "content",
-                       "taking Manhattan, and then it will take Berlin",
-                       "recovering from a PhD dissertation"
-                      ]
+  "jammed",
+  "in use",
+  "being repaired",
+  "under investigation",
+  "missing",
+  "lost",
+  "stolen",
+  "in the dean's office",
+  "broken",
+  "being used by a student at her desk",
+  "empty",
+  "feeling guilty",
+  "underappreciated",
+  "on its last legs",
+  "unsure",
+  "staring into the abyss",
+  "content",
+  "taking Manhattan, and then it will take Berlin",
+  "recovering from a PhD dissertation",
+  "damp",
+  "tired",
+  "hungry",
+  "totes emosh!",
+  "equanimous",
+  "concerned that budget cuts will mean low-quality staples",
+  "feeling mighty fine today and hopes you are too",
+  "going in for a tune-up"
+]
 
 how_many = 5
 highest_number = 24
