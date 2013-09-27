@@ -74,7 +74,12 @@ abnormal_conditions = [
   "equanimous",
   "concerned that budget cuts will mean low-quality staples",
   "feeling mighty fine today and hopes you are too",
-  "going in for a tune-up"
+  "going in for a tune-up",
+  "pining for the fjords",
+  "mad as hell and it's not going to take it any more",
+  "daunted",
+  "nicked slightly",
+  "looking admiringly at the three-hole punch"
 ]
 
 how_many = 5
