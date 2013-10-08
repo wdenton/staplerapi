@@ -22,6 +22,10 @@
 # Configuration details are set in the file config.json.
 # Make a copy of config.json.example and edit it.
 
+# This would be better if it got random words from somwhere.
+# Perhaps Wordnik, as Darius Kazemi describes here?
+# http://tinysubversions.com/2012/05/how-i-built-metaphor-a-minute/
+
 require 'json'
 
 require 'rubygems'
